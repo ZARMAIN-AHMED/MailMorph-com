@@ -883,7 +883,7 @@ import {
 import Image from "next/image";
 
 const API_BASE =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"; // fallback
+  process.env.NEXT_PUBLIC_API_URL; // fallback
 
 interface UserType {
   id: number;
@@ -1282,3 +1282,4 @@ const Navbar: React.FC = () => {
 };
 
 export default Navbar;
+
